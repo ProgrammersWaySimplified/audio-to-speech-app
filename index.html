@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+    }
+    video {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+    pre {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      overflow-x: scroll;
+    }
+  </style>
+  <script defer src='https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js'></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <video width="720" height="560" autoplay muted></video>
+  <pre data-text style="font-size: 2rem; font-family: inherit; width: 100%; white-space: pre-wrap;"></pre>
+</body>
+</html>
